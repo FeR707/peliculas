@@ -24,7 +24,7 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="{{route('index')}}">Inicio</a></li>
-								<li><a href="">Left</a></li>
+								<li><a href="{{route('video')}}">Video</a></li>
 								<li><a href="">API</a></li>
 							</ul>
 						</nav>
@@ -89,9 +89,9 @@
 									<a href="{{route('datosPelicula', $movie['id'])}}" class="image left"><img src="{{$movie['imagen']}}" alt="" /></a>
 									<div class="inner">
 										<a href="{{route('datosPelicula', $movie['id'])}}"><h3>{{$movie['nombre']}}</h3></a>
-										<p>Direccion: {{$movie['direccion']}}</p>
 										<p>Estreno: {{$movie['fecha_estreno']}}</p>
 										<p>Pais: {{$movie['pais']}}</p>
+										<p>Genero: {{$movie->Tipo->nombre}}</p>
 									</div>
 								</div>
 							</section>
@@ -116,11 +116,7 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="https://github.com/FeR707/peliculas" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 
 					<!-- Copyright -->

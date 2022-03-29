@@ -24,7 +24,7 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="{{route('index')}}">Inicio</a></li>
-								<li><a href="">Two Sidebar</a></li>
+								<li><a href="{{route('video')}}">Video</a></li>
 								<li><a href="">API</a></li>
 							</ul>
 						</nav>
@@ -44,8 +44,7 @@
 											<h2>Tipos de Cine</h2>
 											@foreach($cine as $cines)
 											<h3>{{$cines['nombre']}}</h3>
-											<p>Genero: {{$cines['id']}}</p>
-											<p>Concepto <br> {{$cines['descripcion']}}</p>
+											<p><b>Concepto</b> <br> {{$cines['descripcion']}}</p>
 											<img src="{{$cines['imagen']}}" alt="" style="max-width: 100%;"><br><br>
 											@endforeach
 										</section>
@@ -88,17 +87,13 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="https://github.com/FeR707/peliculas" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 
 					<!-- Copyright -->
 						<div class="copyright">
 							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="">HTML5 UP</a></li>
 							</ul>
 						</div>
 

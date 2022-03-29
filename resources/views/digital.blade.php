@@ -24,7 +24,7 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="{{route('index')}}">Inicio</a></li>
-								<li><a href="">Left</a></li>
+								<li><a href="{{route('video')}}">Video</a></li>
 								<li><a href="">API</a></li>
 							</ul>
 						</nav>
@@ -59,11 +59,7 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="https://github.com/FeR707/peliculas" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 
 					<!-- Copyright -->

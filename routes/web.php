@@ -17,13 +17,15 @@ use App\Http\Controllers\HistoriaController;
 */
 
 Route::get('/', [CrearController::class, 'mostrarPeliculas'])->name('index');
-
 Route::get('/pelicula{id}', [CrearController::class, 'datosPeliculas'])->name('datosPelicula');
 
 Route::get('/tipo', [CrearController::class, 'mostrarTipo'])->name('tipo');
-
 Route::get('/historia', [HistoriaController::class, 'mostrarHistoria'])->name('historia');
 Route::get('/origen', [HistoriaController::class, 'mostrarOrigen'])->name('origen');
 Route::get('/digital', [HistoriaController::class, 'mostrarDigital'])->name('digital');
+
+Route::get('/video', function () {
+    return view('video');
+})->name('video');
 
 route::get('/api', [ApiController::class, 'api'])->name('api');

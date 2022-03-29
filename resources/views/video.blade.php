@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Datos de Peliculas</title>
+		<title>Video explicacion</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -40,50 +40,25 @@
 
 									<!-- Content -->
 
-										<article class="movie">
+										<article>
 											<header>
-												<h2>{{$pelicula['nombre']}}</h2>
-												<p>Estrenada el {{$pelicula['fecha_estreno']}}</p>
+												<h2>Explicacion de como se creo la pagina de PeliHistoria</h2>
 											</header>
 
-											<span class="image featured"><img src="{{$pelicula['imagen']}}" alt="" /></span>
+											<iframe width="720" height="480" src="https://www.youtube.com/embed/YnbWZ5Tt4Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-											<p><em>Director: </em>{{$pelicula['direccion']}} </p>
-											<p><em>Guion: </em>{{$pelicula['guion']}}</p> 
-											<p><em>Pais: </em>{{$pelicula['pais']}}</p> 
-											<p><em>Idioma Original: </em>{{$pelicula['idioma']}}</p>
-											<p><em>Duacion: </em>{{$pelicula['duracion']}}</p>
-											<p><em>Genero: </em>{{$pelicula->Tipo->nombre}} </p>
-											<p><em>Tipo Cine: </em>{{$pelicula->Cine->nombre}}</p>
 
-											<h3>Trama</h3>
-											<p class="trama">{{$pelicula['sinopsis']}}</p>
+											<h3>Pasos para la creacion y llenado de la base de datos</h3>
+											<p>Para la creacion de la las tablas se necesita una migracion y un modelo para ello ejecutamos el siguiente comando "php artisan make:model Nombre -m" 
+												con esto se creara la migracion y el modelo, en la migracion debemos especificar los parametros de la tabla y mandarlo a llamar en su modelo con "protected $table = 'nombre';"
+												y luego ejecutamos "php artisan migrate", con esto ya creamos las tablas de nuestra base de datos.
+											</p>
+
+											<p>Para llenarlo se necesita un seeder, lo creamos usando el comando "php artisan make:seed nombre" aqui 
+												podemos llenar las tablas que creamos una vez hecho eso nos vamos a DatabaseSeeder y mandamos a llamar 
+												nuestro seeder "$this->call(NombreSeeder::class);" y luego se ejecuta "php artisan db:seed" para subirlo a la base de datos.
+											</p>
 										</article>
-
-								</div>
-							</div>
-							<div class="col-4 col-12-narrower">
-								<div id="sidebar">
-
-									<!-- Sidebar -->
-
-										<section>
-											<h3>Genero Cinematografico</h3>
-											<p>Que es un genero Cinematografico y como se clasifican</p>
-											<footer>
-												<a href="{{route('tipo')}}" class="button">Mas Generos</a>
-											</footer>
-										</section>
-
-										<section>
-											<h3>Otras Peliculas</h3>
-											<ul class="links">
-												<li><a href="{{route('datosPelicula', $nuevo['id'])}}">{{$nuevo['nombre']}}</a></li>
-												<li><a href="{{route('datosPelicula', $nuevo2['id'])}}">{{$nuevo2['nombre']}}</a></li>
-												<li><a href="{{route('datosPelicula', $nuevo3['id'])}}">{{$nuevo3['nombre']}}</a></li>
-												<li><a href="{{route('datosPelicula', $nuevo4['id'])}}">{{$nuevo4['nombre']}}</a></li>
-											</ul>
-										</section>
 
 								</div>
 							</div>

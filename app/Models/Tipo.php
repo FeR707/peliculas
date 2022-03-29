@@ -14,7 +14,4 @@ class Tipo extends Model
     use HasFactory;
     protected $table = 'tipos';
 
-    public function tiposP(){
-        return $this->hasMany('App\Models\Pelicula');
-    }
 }
