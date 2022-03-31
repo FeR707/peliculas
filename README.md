@@ -8,4 +8,4 @@
 
 <link href="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" rel="stylesheet">
 
-<a href="https://codepen.io/carlossalvadordiaz/pen/PozMmdq" target="_blank"> <img src="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" width="120" height="120"/></a> 
+<a href="https://codepen.io/carlossalvadordiaz/pen/PozMmdq" target="_blank"> <img src="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" width="50" height="50"/></a> 
