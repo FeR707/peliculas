@@ -6,6 +6,4 @@
 
 > - ### <a href="https://www.youtube.com/watch?v=YnbWZ5Tt4Fw" target="_blank">Link de Video</a>
 
-<link href="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" rel="stylesheet">
-
-<a href="https://codepen.io/carlossalvadordiaz/pen/PozMmdq" target="_blank"> <img src="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" width="50" height="50"/></a> 
+> - ### <a href="https://codepen.io/carlossalvadordiaz/pen/PozMmdq" target="_blank"> <img src="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" width="50" height="50"/>Link de Video</a> 
