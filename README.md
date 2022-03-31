@@ -1,6 +1,6 @@
 > - ### **Grupo:** 2522IS
 
-> - ### **Nombre:** Fernando Manuel Galvan <link href="https://github.com/FeR707/FeR707/blob/main/asset/esfera.png" rel="stylesheet">
+> - ### **Nombre:** Fernando Manuel Galvan <link href="https://github.com/FeR707/FeR707/blob/main/asset/esfera-4.svg" rel="stylesheet">
 
 > - ### <a href="https://pelicula-02.herokuapp.com/" target="_blank">Link de Pagina</a>
 
