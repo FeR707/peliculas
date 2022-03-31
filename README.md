@@ -1,4 +1,4 @@
-> ### **Grupo:** 2522IS
+> ### <img src="https://github.com/FeR707/FeR707/blob/main/asset/assassins.svg" width="50" height="50"/> **Grupo:** 2522IS
 
 > ### **Nombre:** Fernando Manuel Galvan
 
