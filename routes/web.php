@@ -28,4 +28,6 @@ Route::get('/video', function () {
     return view('video');
 })->name('video');
 
-route::get('/api', [ApiController::class, 'api'])->name('api');
+Route::get('/api', function () {
+    return view('api');
+})->name('api');

@@ -32,13 +32,9 @@ class CrearController extends Controller
 
         $num = rand(0,20);
         $num2 = rand(0,20);
-        $num3 = rand(0,20);
-        $num4 = rand(0,20);
         $rand = Pelicula::find($num);
         $rand2 = Pelicula::find($num2);
-        $rand3 = Pelicula::find($num3);
-        $rand4 = Pelicula::find($num4);
 
-        return view ('pelicula', ['pelicula'=>$peli, 'nuevo'=>$rand, 'nuevo2'=>$rand2, 'nuevo3'=>$rand3, 'nuevo4'=>$rand4]);
+        return view ('pelicula', ['pelicula'=>$peli, 'nuevo'=>$rand, 'nuevo2'=>$rand2]);
     }
 }

@@ -25,7 +25,7 @@
 							<ul>
 								<li><a href="{{route('index')}}">Inicio</a></li>
 								<li><a href="{{route('video')}}">Video</a></li>
-								<li><a href="">API</a></li>
+								<li><a href="{{route('api')}}">API</a></li>
 							</ul>
 						</nav>
 
@@ -80,8 +80,6 @@
 											<ul class="links">
 												<li><a href="{{route('datosPelicula', $nuevo['id'])}}">{{$nuevo['nombre']}}</a></li>
 												<li><a href="{{route('datosPelicula', $nuevo2['id'])}}">{{$nuevo2['nombre']}}</a></li>
-												<li><a href="{{route('datosPelicula', $nuevo3['id'])}}">{{$nuevo3['nombre']}}</a></li>
-												<li><a href="{{route('datosPelicula', $nuevo4['id'])}}">{{$nuevo4['nombre']}}</a></li>
 											</ul>
 										</section>
 

@@ -24,8 +24,8 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="{{route('index')}}">Inicio</a></li>
-								<li><a href="{{route('video')}}">Video</a></li>
-								<li><a href="">API</a></li>
+								<li class="current"><a href="{{route('video')}}">Video</a></li>
+								<li><a href="{{route('api')}}">API</a></li>
 							</ul>
 						</nav>
 
@@ -45,7 +45,9 @@
 												<h2>Explicacion de como se creo la pagina de PeliHistoria</h2>
 											</header>
 
-											<iframe width="720" height="480" src="https://www.youtube.com/embed/YnbWZ5Tt4Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<div class="video-responsive">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/YnbWZ5Tt4Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div><br><br>
 
 
 											<h3>Pasos para la creacion y llenado de la base de datos</h3>

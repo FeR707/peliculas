@@ -25,7 +25,7 @@
 							<ul>
 								<li><a href="{{route('index')}}">Inicio</a></li>
 								<li><a href="{{route('video')}}">Video</a></li>
-								<li><a href="">API</a></li>
+								<li><a href="{{route('api')}}">API</a></li>
 							</ul>
 						</nav>
 
@@ -87,7 +87,7 @@
 
 					<!-- Icons -->
 						<ul class="icons">
-						<li><a href="https://github.com/FeR707/peliculas" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/FeR707/peliculas" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 
 					<!-- Copyright -->

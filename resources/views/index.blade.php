@@ -25,7 +25,7 @@
 							<ul>
 								<li class="current"><a href="{{route('index')}}">Inicio</a></li>
 								<li><a href="{{route('video')}}">Video</a></li>
-								<li><a href="">API</a></li>
+								<li><a href="{{route('api')}}">API</a></li>
 							</ul>
 						</nav>
 
